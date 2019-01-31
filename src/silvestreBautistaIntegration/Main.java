@@ -1,7 +1,7 @@
 package silvestreBautistaIntegration;
 
 import java.util.Scanner;
-// Hi, I am Jose Silvestre-Bautista    ctrl+shift+f 
+// Hi, I am Jose Silvestre-Bautista    ctrl+shift+f for formatting 
 /*
  * This program is filled with exercises I have completed and it serves as a reference.
  */
