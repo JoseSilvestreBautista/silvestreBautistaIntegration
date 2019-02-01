@@ -1,5 +1,4 @@
 package silvestreBautistaIntegration;
-
 import java.util.Scanner;
 // Hi, I am Jose Silvestre-Bautista ctrl+shift+f for formatting
 // This program is filled with exercises I have completed and it serves as a reference.
@@ -22,11 +21,12 @@ public class Main {
 
     System.out.println("Hello " + name + ", how old are you?");
     int age = scan.nextInt();
+   
     System.out.println("Thank you!");
-
-    System.out.println("Did you know");
+ 
+    System.out.print("Did you know");
     double halfAge = age / 2.0;
-    System.out.println("Half your age is " + halfAge);
+    System.out.println(" half your age is " + halfAge);
 
     System.out.println("True or false, 2+2 is 4.");
     boolean answer = scan.nextBoolean();
@@ -35,8 +35,8 @@ public class Main {
     else
       System.out.println("Wrong!");
  // Casting: forcing java to treat a variable as another data type
-    double fakePie = (int) 3.14;
-    System.out.println(fakePie);
+    double smallPie = (int) 3.14;
+    System.out.println(smallPie);
 
     System.out.println("Jose says, \"I love programming!\"");
   }
