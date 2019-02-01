@@ -23,23 +23,25 @@ public class Main {
     System.out.println("Hello " + name + ", how old are you?");
     int age = scan.nextInt();
     System.out.println("Thank you!");
-    
+
     System.out.println("Did you know");
     double halfAge = age / 2.0;
     System.out.println("Half your age is " + halfAge);
-    
+
     System.out.println("True or false, 2+2 is 4.");
     boolean answer = scan.nextBoolean();
-    if (answer == true) 
+    if (answer == true)
       System.out.println("Correct!");
     else
-      System.out.println("Wrong!"); 
+      System.out.println("Wrong!");
+ // Casting: forcing java to treat a variable as another data type
+    double fakePie = (int) 3.14;
+    System.out.println(fakePie);
 
-
+    System.out.println("Jose says, \"I love programming!\"");
   }
 }
 
-// Casting: forcing java to treat a variable as another data type
 
 // Variable: location in memory
 
