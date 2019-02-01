@@ -30,7 +30,7 @@ public class Main {
     
     System.out.println("True or false, 2+2 is 4.");
     boolean answer = scan.nextBoolean();
-    if (answer == true)
+    if (answer == true) 
       System.out.println("Correct!");
     else
       System.out.println("Wrong!"); 
