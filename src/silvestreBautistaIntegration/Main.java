@@ -31,7 +31,7 @@ public class Main {
       System.out.println("Try again");
       scan.nextBoolean();
       if (true)
-        break;
+        break; // ends the loop when break is read, this prevents an infinte loop from occuring.
     }
 
     // Casting: forcing java to treat a variable as another data type
@@ -129,7 +129,7 @@ public class Main {
       System.out.println(count);
       count++;
     } while (count <= 10);
-    // evaluates statement before the condition even if condition is not meet
+    // evaluates statement before the condition, even if condition is not meet
 
     System.out.println("enter a number between 1 and 100");
     int N = scan.nextInt();
