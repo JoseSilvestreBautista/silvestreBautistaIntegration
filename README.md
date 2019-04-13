@@ -1,37 +1,16 @@
-# silvestreBautistaIntegration
+PSI 3
 
-Create a method with arguments and return values - Lines: 167-171
-
-Identify a method call and argument in comments - Lines: 61 and 62
-
-Identify a header and parameter in comments- Lines - 167-171
-
-Use the Random class - Lines: 57-60
-
-Use the Math class - Line: 170
-
-Create if/else constructs - Lines 136-144
-
-Create ternary constructs - Line: 44
-
-Use a switch statement - Lines: 76-101
-
-Compare two String objects by using the compareTo and equals methods and make a comment describing how == works with objects - Lines:107-109
-
-Use +, -, *, /, %, ++, --, +=  - Lines: 149, 154, 170, 170, 136, 118, 113, 158
-
-Use relational operators - Line 138
-
-Use conditional operators - Line 138
-
-Describe operator precedence as a comment - Lines: 176-177
-
-Create and use while loops - Lines: 30-35
-
-Create and use for loops - Lines: 113-115
-
-Create and use do/while loops - Lines: 128-131
-
-Use break in a loop with a comment describing what it does - Line: 34
-
-Use continue in a loop with a comment describing what it does - Lines: 118-121
+Make a class in a separate file with private fields, public getters and setters, a constructor with and without parameters:(Class: YearClassification)
+Overload a method(class: Car, the car constructors )
+Describe inheritance and its benefits (Class: Main, at the bottom of the main method)
+Develop code that makes use of polymorphism (Class: Main, around the top of the main method dealing with momsCar)
+Use super and this to access objects and constructors(Class: Car, the car constructor)
+Declare, instantiate, initialize and use a one-dimensional array (Class: Main, the array is called creditClasses)
+Manually find the smallest value in an array (Class: Main, the underneath creditClasses array)
+Get a sum of the values in an array using an accumulator. (Class: Main, near the creditClasses array)
+Search an array and identify the index where a value was found. (Class: Main, the underneath creditClasses array)
+Create and use the enhanced for loop (Class: Main, near the beginning of main method)
+Declare, instantiate, initialize and use multi-dimensional arrays(Class: Main, the array is called lunchSitting)
+Declare and use an ArrayList of a given type (Class: Main, the arraylist is called courses)
+Search a two-dimensional array and identify the coordinates where a value was found (Class: Main, under the array called lunchSitting)
+Effectively utilize exception handling for user input of an int (Class: Main, around the beginning of main method inside a do while loop)
