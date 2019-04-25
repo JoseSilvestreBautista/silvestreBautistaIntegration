@@ -1,9 +1,7 @@
-
+// Jose Silvestre-Bautista
 public class YearClassification {
 
-
   private int credits;
-  private int firstYear;
 
   public YearClassification() {
     credits = 0;
@@ -18,9 +16,11 @@ public class YearClassification {
     return credits;
   }
 
+  /**
+   * This method prints your classification based on the credits entered.
+   */
   public void print() {
 
-    String classification;
     if (credits <= 30) {
       System.out.println("You are a Freshmen.");
     } else if (credits <= 60) {
