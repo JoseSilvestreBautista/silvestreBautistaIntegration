@@ -1,9 +1,9 @@
-
-public class Vehicle {
-  private int wheels;
+// Jose Silvestre-Bautista
+public class Vehicle {// this is a parent class or super class
   private int topSpeed;
   private String vehicleName;
 
+  // all these are mutators and getters
   public void setVehicleName(String vehicleName) {
     this.vehicleName = vehicleName;
   }
